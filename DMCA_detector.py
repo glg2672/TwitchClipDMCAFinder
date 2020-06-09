@@ -151,7 +151,7 @@ def send_to_audd(link):
     return(result)
 
 if __name__ == '__main__':
-    twitch_user = input("who would you like to scan for DMCA content for")
+    twitch_user = input("who would you like to scan for DMCA content for: ")
     print("WARNING this may take a while as it will download up to 1100 clips")
     accessToken = getAccessToken()
     userID = getUserID(accessToken, twitch_user)
